@@ -1,3 +1,5 @@
+# Stacks
+
 Holds a list of elements. Operates on the LIFO (Last In First Out) / FILO (First In Last out principles).
 
 Basic stack methods:
