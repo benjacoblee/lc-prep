@@ -3,7 +3,7 @@
 **Data Structures**
 
 -   [x] Linked List
--   [ ] Stack & Queue
+-   [x] Stack & Queue
 -   [ ] Hash Tables
 -   [ ] Binary Search Tree
 -   [ ] Binary Heaps & Priority Queue
