@@ -1,5 +1,4 @@
 const Stack = require("./stack");
-console.log(Stack);
 
 function reverseStr(str) {
     let stack = new Stack();
