@@ -68,10 +68,27 @@ class DoublyLinkedList {
         }
         this.length--;
     }
+
+    delete(value) {
+        if (!this.head) {
+            return null;
+        }
+        let node = this.head;
+        while (node) {
+            if (node.value === value) {
+                node.prev.next = node.next;
+                node.next.prev = node.prev;
+                this.length--;
+                return value;
+            }
+            node = node.next;
+        }
+    }
 }
 
 let doublyLinkedList = new DoublyLinkedList();
 doublyLinkedList.push(1);
 doublyLinkedList.push(2);
 doublyLinkedList.insertBeginning(0);
+doublyLinkedList.delete(1);
 console.log(doublyLinkedList);
