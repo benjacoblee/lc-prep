@@ -62,6 +62,21 @@ class LinkedList {
 
         return lastNode;
     }
+
+    delete(value) {
+        let node = this.head;
+        let prev;
+        if (!node) return null;
+        while (node) {
+            if (node.value === value) {
+                console.log("FOUND!!!");
+                prev.next = node.next;
+                break;
+            }
+            prev = node;
+            node = node.next;
+        }
+    }
 }
 
 let myNode = new Node("First node!");
@@ -76,7 +91,9 @@ myLinkedList.insert(1);
 myLinkedList.insert(2);
 myLinkedList.insert(3);
 myLinkedList.insert(9);
+myLinkedList.delete(3);
 // console.log(myLinkedList);
+// console.log(myLinkedList.size());
 // console.log(myLinkedList.getFirst());
 // console.log(myLinkedList.getLast());
 // console.log(myLinkedList.find(9));
