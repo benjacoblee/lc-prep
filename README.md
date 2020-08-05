@@ -4,7 +4,7 @@
 
 -   [x] Linked List
 -   [x] Stack & Queue
--   [ ] Hash Tables
+-   [x] Hash Tables
 -   [ ] Binary Search Tree
 -   [ ] Binary Heaps & Priority Queue
 -   [ ] Graphs
