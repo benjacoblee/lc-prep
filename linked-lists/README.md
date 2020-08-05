@@ -17,8 +17,25 @@ The entry point of a linked list is called a head. The last node on a list point
 
 ## Types of Linked Lists
 
--   Singly Linked Lists: Each node points to the next node [Singly Linked List](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
--   Doubly Linked Lists: Each node points to the next node and the previous node [Doubly Linked List](https://reactgo.com/javascript-double-linked-list-implementation/) [Use Cases](https://www.quora.com/What-is-real-life-use-of-circular-doubly-linked-lists?share=1)
--   Circular Linked Lists: Last node points to the first node or any other node before it [Circular Linked List](https://learnersbucket.com/tutorials/data-structures/circular-linked-list-implementation-in-javascript/) [Use Cases](https://stackoverflow.com/questions/3589772/why-exactly-do-we-need-a-circular-linked-list-singly-or-doubly-data-structur)
+-   Singly Linked Lists: Each node points to the next node [Singly Linked List]
+-   Doubly Linked Lists: Each node points to the next node and the previous node
+-   Circular Linked Lists: Last node points to the first node or any other node before it
 
-[Efficiency in singly linked lists vs doubly linked lists](https://stackoverflow.com/questions/15563043/when-is-doubly-linked-list-more-efficient-than-singly-linked-list)
+## Resources
+
+### Singly Linked Lists
+
+-   [Implementing a Linked List In Javascript](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
+
+### Doubly Linked Lists
+
+-   [Javascript Doubly linked List Implementation](https://reactgo.com/javascript-double-linked-list-implementation/)
+
+### Circular Linked List
+
+-   [Circular linked List Implementation in Javascript](https://learnersbucket.com/tutorials/data-structures/circular-linked-list-implementation-in-javascript/)
+
+### Misc
+
+-   [What is real life use of circular doubly linked lists](https://www.quora.com/What-is-real-life-use-of-circular-doubly-linked-lists?share=1)
+-   [Efficiency in singly linked lists vs doubly linked lists](https://stackoverflow.com/questions/15563043/when-is-doubly-linked-list-more-efficient-than-singly-linked-list)
