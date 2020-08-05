@@ -69,9 +69,8 @@ class LinkedList {
         if (!node) return null;
         while (node) {
             if (node.value === value) {
-                console.log("FOUND!!!");
                 prev.next = node.next;
-                break;
+                return value;
             }
             prev = node;
             node = node.next;
@@ -91,7 +90,7 @@ myLinkedList.insert(1);
 myLinkedList.insert(2);
 myLinkedList.insert(3);
 myLinkedList.insert(9);
-myLinkedList.delete(3);
+console.log(myLinkedList.delete(3));
 // console.log(myLinkedList);
 // console.log(myLinkedList.size());
 // console.log(myLinkedList.getFirst());
