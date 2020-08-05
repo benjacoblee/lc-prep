@@ -19,4 +19,4 @@ The entry point of a linked list is called a head. The last node on a list point
 
 -   Singly Linked Lists: Each node points to the next node [Singly Linked List](https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/)
 -   Doubly Linked Lists: Each node points to the next node and the previous node [Doubly Linked List](https://reactgo.com/javascript-double-linked-list-implementation/)
--   Circular Linked Lists: Last node points to the first node or any other node before it
+-   Circular Linked Lists: Last node points to the first node or any other node before it [Circular Linked List](https://learnersbucket.com/tutorials/data-structures/circular-linked-list-implementation-in-javascript/) [Use Cases](https://stackoverflow.com/questions/3589772/why-exactly-do-we-need-a-circular-linked-list-singly-or-doubly-data-structur)
