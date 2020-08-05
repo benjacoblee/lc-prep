@@ -40,9 +40,38 @@ class DoublyLinkedList {
         }
         this.length--;
     }
+
+    insertBeginning(record) {
+        let node = new Node(record);
+        if (!this.head) {
+            this.head = node;
+            this.tail = node;
+        } else {
+            this.head.prev = node; // whatever is at the head, it's previous property is the newest inserted node
+            node.next = this.head; // update whatever is current at the head to be the next node, update the head
+            this.head = node;
+        }
+        this.length++;
+    }
+
+    removeFirst() {
+        if (!this.head) {
+            return null;
+        }
+        const node = this.head.next;
+        if (node) {
+            node.prev = null;
+            this.head = node;
+        } else {
+            this.head = null;
+            this.tail = null;
+        }
+        this.length--;
+    }
 }
 
 let doublyLinkedList = new DoublyLinkedList();
 doublyLinkedList.push(1);
 doublyLinkedList.push(2);
+doublyLinkedList.insertBeginning(0);
 console.log(doublyLinkedList);
