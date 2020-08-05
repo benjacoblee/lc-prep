@@ -20,4 +20,4 @@ The hashing function:
 ## Resources
 
 -   [Algorithms in Javascript: Hash Tables](https://medium.com/javascript-in-plain-english/algorithm-in-javascript-hash-table-7b0464d2b81b)
--   [FCC Video Tutorial](https://www.youtube.com/watch?v=UOxTMOCTEZk)
+-   [Ben Awad Video Tutorial](https://www.youtube.com/watch?v=UOxTMOCTEZk)
