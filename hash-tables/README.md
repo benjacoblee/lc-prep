@@ -18,3 +18,4 @@ The hashing function:
     }
 
 [Resource](https://medium.com/javascript-in-plain-english/algorithm-in-javascript-hash-table-7b0464d2b81b)
+[Video](https://www.youtube.com/watch?v=UOxTMOCTEZk)
