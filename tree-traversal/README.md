@@ -22,3 +22,25 @@ The operation of visiting every node once.
     -   Push the value of the node to a variable that stores visited values
     -   If the node has a left property, call the helper function with the left property on the node
     -   If the node has a right property, call the helper function with the right property on the node
+
+## DFS Postorder (Recursive)
+
+-   Create a variable to store the values of the node visited
+-   Store the root of the BST in a variable called current
+-   Write a helper function which accepts a node
+    -   If the node has a left property, call the helper function with the left property on the node
+    -   If the node has a right property, call the helper function with the right property on the node
+    -   Push the value of the node to a variable that stores visited values
+    -   Invoke the helper function with the current variable
+-   Return the array of values
+
+## DFS Inorder (Recursive)
+
+-   Create a variable to store the values of the node visited
+-   Store the root of the BST in a variable called current
+-   Write a helper function which accepts a node
+    -   If the node has a left property, call the helper function with the left property on the node
+    -   Push the value of the node to a variable that stores visited values
+    -   If the node has a right property, call the helper function with the right property on the node
+    -   Invoke the helper function with the current variable
+-   Return the array of values
