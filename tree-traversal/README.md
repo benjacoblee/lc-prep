@@ -4,6 +4,9 @@ The operation of visiting every node once.
 
 -   Breadth-first search
 -   Depth-first search (Inorder, preorder, postorder)
+    -   Inorder (Left-Root-Right)
+    -   Preorder (Root-Left-Right)
+    -   Postorder (Left-Right-Root)
 
 ## BFS (Iterative)
 
