@@ -31,6 +31,7 @@ The operation of visiting every node once.
 -   Create an empty stack and push root node to stack
 -   While the stack is not empty:
     -   Pop an item from the stack
+    -   Push the popped value to the values array
     -   Push the right child of popped item to the stack
     -   Push the left child of popped item to the stack
 
@@ -67,11 +68,11 @@ The operation of visiting every node once.
 
 ## [DFS Inorder (Iterative)](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
 
--   Create an empty stack
+-   Create an empty stack and an array to hold the values
 -   Initialize the root as the current node
 -   While true:
     -   If there is a current node, push it to the stack and set current to current.left
-    -   Else, while the stack is not empty, pop an item off the stack and set current to current.right
+    -   Else, while the stack is not empty, pop an item off the stack and push it to the values array. Set current to current.right
 
 ## When to use BFS/DFS?
 
@@ -80,3 +81,7 @@ If a tree is very wide, a breadth-first search consumes more memory due to stora
 When using an inorder search, elements end up in a sorted order.
 
 Using preorder can help to clone/reconstruct an existing tree.
+
+## Resources
+
+-   [Binary Tree Bootcamp (Back to Back SWE)](https://www.youtube.com/watch?v=BHB0B1jFKQc)
