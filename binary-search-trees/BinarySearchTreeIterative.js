@@ -73,12 +73,12 @@ class BST {
 
 const bst = new BST();
 bst.insert(10);
-bst.insert(5);
-bst.insert(2);
-bst.insert(13);
-bst.insert(11);
-bst.insert(16);
-bst.insert(7);
-bst.insert(7);
-console.log(bst.find(7));
+bst.insert(6);
+bst.insert(15);
+bst.insert(3);
+bst.insert(8);
+bst.insert(20);
+module.exports = bst;
+// console.log(bst.find(7));
+// console.log(bst.BFS());
 // console.log(bst);
