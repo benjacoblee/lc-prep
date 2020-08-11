@@ -24,7 +24,7 @@
 -   [ ] BFS Graph
 -   [ ] DFS Graph
 -   [ ] Dijkstra’s Algorithm (just learn the idea — no need to implement)
--   [ ] Tree Traversals — BFS, DFS (in-order, pre-order, post-order): Implement Recursive and Iterative
+-   [x] Tree Traversals — BFS, DFS (in-order, pre-order, post-order): Implement Recursive and Iterative
 -   [ ] External Sort — No implementation; Just know the concept.
 -   [ ] NP-Complete (Video) — Just know the concept
 -   [ ] Topological Sort
