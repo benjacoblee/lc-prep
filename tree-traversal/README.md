@@ -44,3 +44,11 @@ The operation of visiting every node once.
     -   If the node has a right property, call the helper function with the right property on the node
     -   Invoke the helper function with the current variable
 -   Return the array of values
+
+## When to use BFS/DFS?
+
+If a tree is very wide, a breadth-first search consumes more memory due to storage of values in the queue.
+
+When using an inorder search, elements end up in a sorted order.
+
+Using preorder can help to clone/reconstruct an existing tree.
