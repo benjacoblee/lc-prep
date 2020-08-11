@@ -23,6 +23,14 @@ The operation of visiting every node once.
     -   If the node has a left property, call the helper function with the left property on the node
     -   If the node has a right property, call the helper function with the right property on the node
 
+## [DFS Preorder (Iterative)](https://www.geeksforgeeks.org/iterative-preorder-traversal/)
+
+-   Create an empty stack and push root node to stack
+-   While the stack is not empty:
+    -   Pop an item from the stack
+    -   Push the right child of popped item to the stack
+    -   Push the left child of popped item to the stack
+
 ## DFS Postorder (Recursive)
 
 -   Create a variable to store the values of the node visited
@@ -34,6 +42,15 @@ The operation of visiting every node once.
     -   Invoke the helper function with the current variable
 -   Return the array of values
 
+## [DFS Postorder (Iterative)](https://www.geeksforgeeks.org/iterative-postorder-traversal/?ref=lbp)
+
+-   Create two empty stacks
+-   Initialize the root as the current node and push it to the first stack
+-   While the first stack is not empty:
+    -   Set the current node to the popped value of the first stack
+    -   Push it to the second stack
+    -   If there is a left and right property of the current node, push both to the first stack
+
 ## DFS Inorder (Recursive)
 
 -   Create a variable to store the values of the node visited
@@ -44,6 +61,14 @@ The operation of visiting every node once.
     -   If the node has a right property, call the helper function with the right property on the node
     -   Invoke the helper function with the current variable
 -   Return the array of values
+
+## [DFS Inorder (Iterative)](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/)
+
+-   Create an empty stack
+-   Initialize the root as the current node
+-   While true:
+    -   If there is a current node, push it to the stack and set current to current.left
+    -   Else, while the stack is not empty, pop an item off the stack and set current to current.right
 
 ## When to use BFS/DFS?
 
