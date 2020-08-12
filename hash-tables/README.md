@@ -2,20 +2,22 @@
 
 Stores key value pairs. Uses a hash function to compute an index where the value can be found. Has fast insertion, deletion and retrieval times but poor search times.
 
-The hashing function:
+## What makes a good hash?
 
-    hash(str, tableSize) {
-        const H = 37;
-        let total = 0;
+-   Fast (constant time)
+-   Doesn't cluster outputs at specific indices, but distributes uniformly
+-   Deterministic (input yields same output)
 
-        for (let i = 0; i < str.length; i++) {
-            total += H * total + str.charCodeAt(i);
-        }
+## Dealing with collisions
 
-        total %= tableSize;
+-   Separate chaining
 
-        return parseInt(total);
-    }
+    -   At each index in our array we store values using a more sophisticated data structure. This allows multiple key-value pairs to be stored at the same index.
+
+            [["firstName", "john"], ["secondName", "smith"]]
+
+-   Linear Probing
+    -   With linear probing, when a collision happens, we search for the next empty slot, allowing key-value pairs to be stored at each index
 
 ## Resources
 
