@@ -38,6 +38,12 @@ We can find the parent, left and right nodes with the following:
     -   Keep looping and swapping until neither child is larger than the element
     -   Return the old root
 
+## Big O of Binary Heaps
+
+-   Insertion (O(log n))
+-   Removal (O(log n))
+-   Search (O(n))
+
 ## Resources
 
 -   [Priority Queue](https://medium.com/swlh/binary-heaps-priority-queues-in-javascript-44d20cf0cb6e): Where higher/lower valued data bubbles to the front of queue
