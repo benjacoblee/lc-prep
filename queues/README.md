@@ -1,3 +1,5 @@
+# Queues
+
 Operates on the First In First Out principle. Adds elemnts to the end of the queue and removes from the front of the queue.
 
     enqueue(item)
