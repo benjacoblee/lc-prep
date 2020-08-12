@@ -6,7 +6,7 @@
 -   [x] Stack & Queue
 -   [x] Hash Tables
 -   [x] Binary Search Tree
--   [ ] Binary Heaps & Priority Queue
+-   [x] Binary Heaps & Priority Queue
 -   [ ] Graphs
 -   [ ] Trie
 
