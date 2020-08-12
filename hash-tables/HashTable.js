@@ -56,6 +56,34 @@ class HashTable {
             this.data[index] = [[key, value]];
         }
     }
+
+    keys() {
+        let keysArr = [];
+        for (let i = 0; i < this.data.length; i++) {
+            if (this.data[i]) {
+                this.data[i].forEach((arr) => {
+                    if (keysArr.indexOf(arr[0]) < 0) {
+                        keysArr.push(arr[0]);
+                    }
+                });
+            }
+        }
+        return keysArr;
+    }
+
+    values() {
+        let valuesArr = [];
+        for (let i = 0; i < this.data.length; i++) {
+            if (this.data[i]) {
+                for (let j = 0; j < this.data[i].length; j++) {
+                    if (!valuesArr.includes(this.data[i][j][1])) {
+                        valuesArr.push(this.data[i][j][1]);
+                    }
+                }
+            }
+        }
+        return valuesArr;
+    }
 }
 
 const hashTable = new HashTable(3);
@@ -63,5 +91,7 @@ hashTable.set("firstName", "Ben");
 hashTable.set("lastName", "Lee");
 hashTable.set("country", "Singapore");
 hashTable.set("hobbies", ["coding", "sleeping", "watching TV"]);
-console.log(hashTable.get("firstName"));
-console.log(hashTable.data.length);
+// console.log(hashTable.get("firstName"));
+// console.log(hashTable.data.length);
+console.log(hashTable.keys());
+console.log(hashTable.values());
