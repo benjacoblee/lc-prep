@@ -35,7 +35,6 @@
 
 Once you are comfortable with the data structures & algorithms above, do the following exercise multiple times (at least 2–3 times) until you can do them with your eyes closed.
 
--   [ ] Implement an ArrayList from scratch
 -   [ ] Reverse a linked list
 -   [ ] Implement a Stack & a Queue using Array
 -   [ ] Implement a HashTable with simple Hashing functions
