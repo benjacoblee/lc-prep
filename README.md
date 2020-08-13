@@ -7,7 +7,7 @@
 -   [x] Hash Tables
 -   [x] Binary Search Tree
 -   [x] Binary Heaps & Priority Queue
--   [ ] Graphs
+-   [x] Graphs
 -   [ ] Trie
 
 **Algorithms**
