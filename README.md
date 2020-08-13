@@ -21,8 +21,8 @@
 -   [ ] Selections — Kth Smallest Elements (Sort, QuickSelect, Mediums of Mediums) — Implement all three ways
 -   [ ] Permutations
 -   [ ] Subsets
--   [ ] BFS Graph
--   [ ] DFS Graph
+-   [x] BFS Graph
+-   [x] DFS Graph
 -   [ ] Dijkstra’s Algorithm (just learn the idea — no need to implement)
 -   [x] Tree Traversals — BFS, DFS (in-order, pre-order, post-order): Implement Recursive and Iterative
 -   [ ] External Sort — No implementation; Just know the concept.
