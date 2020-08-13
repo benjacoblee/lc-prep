@@ -46,5 +46,23 @@ g.addEdge("Los Angeles", "Hong Kong");
 g.addEdge("Los Angeles", "Aspen");
 // g.removeEdge("Dallas", "Aspen");
 // g.removeEdge("Dallas", "Tokyo");
+// console.log(g);
 g.removeVertex("Hong Kong");
-console.log(g);
+
+const graph = new Graph();
+graph.addVertex("A");
+graph.addVertex("B");
+graph.addVertex("C");
+graph.addVertex("D");
+graph.addVertex("E");
+graph.addVertex("F");
+
+graph.addEdge("A", "B");
+graph.addEdge("A", "C");
+graph.addEdge("B", "D");
+graph.addEdge("C", "E");
+graph.addEdge("D", "E");
+graph.addEdge("D", "F");
+graph.addEdge("E", "F");
+
+module.exports = graph;
