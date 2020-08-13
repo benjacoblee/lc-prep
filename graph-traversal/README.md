@@ -39,3 +39,16 @@ Visiting/updating/checking each node in a graph.
         -   Add it to the result list
         -   Push all of its neighbors into the stack
 -   Return the result array
+
+## BFS
+
+-   The function should accept a starting vertex
+-   Create a queue (array) and place the starting vertex in it
+-   Create an array to store the nodes visited
+-   Create an object to store nodes visited
+-   Mark the starting vertex as visited
+-   Loop as long as there is anything in the queue
+-   Rmove the first vertex from the queue and push it into the array
+    that stores nodes visited
+-   Loop over each vertex in the adjacency list for the vertex you're visitng
+-   If it is not inside the object that stores nodes visited, mark it as visited and enqueue that vertex
