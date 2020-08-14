@@ -1,4 +1,4 @@
-function merge(arr1, arr2) {
+module.exports = function merge(arr1, arr2) {
     let i = 0;
     let j = 0;
     const merged = [];
@@ -22,6 +22,6 @@ function merge(arr1, arr2) {
     }
 
     return merged;
-}
+};
 
-console.log(merge([1, 10, 50], [2, 14, 99, 100]));
+// console.log(merge([1, 10, 50], [2, 14, 99, 100]));
