@@ -14,7 +14,7 @@
 
 -   [ ] Bit Manipulation & Numbers — difference btw Unsigned vs signed numbers
 -   [ ] Stability in Sorting
--   [ ] Mergesort
+-   [x] Mergesort
 -   [ ] Quicksort
 -   [ ] Heapsort — Sort it in-place to get O(1) space
 -   [ ] Binary Search
