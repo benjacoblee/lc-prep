@@ -18,7 +18,7 @@
 -   [x] Quicksort
 -   [x] Heapsort — Sort it in-place to get O(1) space
 -   [x] Binary Search
--   [ ] Selections — Kth Smallest Elements (Sort, QuickSelect, Mediums of Mediums) — Implement all three ways
+-   [ ] Selections — Kth Smallest Elements (Sort, QuickSelect, Median of Medians) — Implement all three ways
 -   [ ] Permutations
 -   [ ] Subsets
 -   [x] BFS Graph
@@ -33,7 +33,7 @@
 -   [ ] Count connected components in a graph
 -   [ ] Find strongly connected components in a graph
 
-Once you are comfortable with the data structures & algorithms above, do the following exercise multiple times (at least 2–3 times) until you can do them with your eyes closed.
+**Implementation**
 
 -   [ ] Reverse a linked list
 -   [ ] Implement a Stack & a Queue using Array
@@ -44,3 +44,8 @@ Once you are comfortable with the data structures & algorithms above, do the fol
 -   [ ] Write the quicksort algorithm
 -   [ ] Print binary tree using DFS (in-order, preorder and post order — all three of them) and BFS.
 -   [ ] Implement a trie.
+
+## Miscellaneous (to read)
+
+-   [Random Pivoting - GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/)
+    -   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
