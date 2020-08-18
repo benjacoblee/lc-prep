@@ -17,7 +17,7 @@
 -   [x] Mergesort
 -   [x] Quicksort
 -   [x] Heapsort — Sort it in-place to get O(1) space
--   [ ] Binary Search
+-   [x] Binary Search
 -   [ ] Selections — Kth Smallest Elements (Sort, QuickSelect, Mediums of Mediums) — Implement all three ways
 -   [ ] Permutations
 -   [ ] Subsets
