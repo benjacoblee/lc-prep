@@ -31,3 +31,8 @@
             -   Update the distances object with new lower distance
             -   Update the previous object to contain that vertex
             -   Enqueue the vertex with the total distance from the start node
+
+## Resources
+
+-   [Dijkstra's Algorithm : A Quick Intro on How it Works
+    ](https://www.youtube.com/watch?v=eFZCPlZCyIM)
