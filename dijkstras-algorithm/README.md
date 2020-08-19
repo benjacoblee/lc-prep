@@ -36,3 +36,5 @@
 
 -   [Dijkstra's Algorithm : A Quick Intro on How it Works
     ](https://www.youtube.com/watch?v=eFZCPlZCyIM)
+-   [Graph Data Structure 4. Dijkstra’s Shortest Path Algorithm
+    ](https://www.youtube.com/watch?v=pVfj6mxhdMw&t=42s)
