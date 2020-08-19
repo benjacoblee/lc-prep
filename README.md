@@ -49,3 +49,10 @@
 
 -   [Random Pivoting - GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/)
     -   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
+
+## To Revise
+
+-   Binary Heaps and Priority Queues
+-   Dijkstra's Algorithm
+-   Quicksort
+-   Quickselect
