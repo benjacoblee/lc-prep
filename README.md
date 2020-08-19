@@ -45,12 +45,12 @@
 -   [ ] Print binary tree using DFS (in-order, preorder and post order — all three of them) and BFS.
 -   [ ] Implement a trie.
 
-## Miscellaneous (to read)
+**Miscellaneous (to read)**
 
 -   [Random Pivoting - GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/)
     -   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
 
-## To Revise
+**To Revise**
 
 -   Binary Heaps and Priority Queues
 -   Dijkstra's Algorithm
