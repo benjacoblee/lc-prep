@@ -19,8 +19,8 @@
 -   [x] Heapsort — Sort it in-place to get O(1) space
 -   [x] Binary Search
 -   [ ] Selections — Kth Smallest Elements (Sort, QuickSelect, Median of Medians) — Implement all three ways
--   [ ] Permutations
--   [ ] Subsets
+-   [x] Permutations
+-   [x] Subsets
 -   [x] BFS Graph
 -   [x] DFS Graph
 -   [x] Dijkstra’s Algorithm (just learn the idea — no need to implement)
@@ -48,7 +48,7 @@
 **Miscellaneous (to read)**
 
 -   [Random Pivoting - GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/)
-    -   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
+-   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
 
 **To Revise**
 
@@ -56,3 +56,4 @@
 -   Dijkstra's Algorithm
 -   Quicksort
 -   Quickselect
+-   Permutations, subsets
