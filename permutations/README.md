@@ -8,5 +8,5 @@ Generates a list of all possible ways to order elements.
 
 ## Resources
 
--[Heap's Algorithm in JavaScript - Get All The Permutations of an Array
-](https://www.youtube.com/watch?v=xghJNlMibX4)
+-   [Heap's Algorithm in JavaScript - Get All The Permutations of an Array
+    ](https://www.youtube.com/watch?v=xghJNlMibX4)
