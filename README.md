@@ -13,7 +13,7 @@
 **Algorithms**
 
 -   [ ] Bit Manipulation & Numbers — difference btw Unsigned vs signed numbers
--   [ ] Stability in Sorting
+-   [x] Stability in Sorting
 -   [x] Mergesort
 -   [x] Quicksort
 -   [x] Heapsort — Sort it in-place to get O(1) space
