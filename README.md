@@ -51,7 +51,8 @@
 -   [Random Pivoting - GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/)
 -   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
 -   [The math problem that could change the world: Does P = NP?](https://bigthink.com/technology-innovation/what-is-p-vs-np?rebelltitem=6#rebelltitem6)
--   [The status of the P VS NP Problem](https://cacm.acm.org/magazines/2009/9/38904-the-status-of-the-p-versus-np-problem/fulltext) -[Computers and Intractability: A Guide to the Theory of NP-Completeness (Series of Books in the Mathematical Sciences)](https://www.amazon.com/dp/0716710455)
+-   [The status of the P VS NP Problem](https://cacm.acm.org/magazines/2009/9/38904-the-status-of-the-p-versus-np-problem/fulltext)
+-   [Computers and Intractability: A Guide to the Theory of NP-Completeness (Series of Books in the Mathematical Sciences)](https://www.amazon.com/dp/0716710455)
 
 **To Revise**
 
