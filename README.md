@@ -47,6 +47,7 @@
 
 **Miscellaneous (to read)**
 
+-   [Visualisation of DS and algorithms](https://visualgo.net/en)
 -   [Random Pivoting - GeeksforGeeks](https://www.geeksforgeeks.org/quicksort-using-random-pivoting/)
 -   [Hoare vs Lomuto Partitioning - GeeksforGeeks](https://www.geeksforgeeks.org/hoares-vs-lomuto-partition-scheme-quicksort/)
 
@@ -54,6 +55,6 @@
 
 -   Binary Heaps and Priority Queues
 -   Dijkstra's Algorithm
--   Quicksort
+-   All sorting algorithms
 -   Quickselect
 -   Permutations, subsets
